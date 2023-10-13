@@ -49,7 +49,7 @@ ScrollReveal({
 
 ScrollReveal().reveal('.home-content ', {origin: 'left'});
 ScrollReveal().reveal('.heading ', {origin: 'top'});
-ScrollReveal().reveal('.about-content, .services-container, .skills-container, .projects-container, .contact form', {origin: 'bottom'});
+ScrollReveal().reveal('.about-content, .services-container, .skills-container, .projects-container, .contact form, .social-media , .my-contact', {origin: 'bottom'});
 ScrollReveal().reveal('.home-img ', {origin: 'right'});
 ScrollReveal().reveal('.about-img ', {origin: 'left'});
 

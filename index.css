@@ -683,7 +683,7 @@ span {
 }
 
 .contact{
-    padding: 10rem 0 2rem 0;    
+    padding: 12rem 0 2rem 0;    
 }
 
 .contact h2 {
@@ -697,6 +697,7 @@ span {
     align-items: center;
     font-size: 2.5rem;
     margin: 0 0 2rem 0;
+    padding-top: 8rem;
     padding-bottom: 1rem;
     padding-top: 2rem;
     border-bottom: .2rem solid white 100%;
@@ -707,7 +708,7 @@ span {
     display: flex;
     justify-content: center;
     align-items: center;
-
+    padding-top: 4rem;
 }
 
 .contact .social-media a {
@@ -934,15 +935,41 @@ span {
     }
 }
 
-@media (max-width:350px) {
+@media (max-width:399px) {
     .home-img img {
         width: 90vw;
     }
 
-    .about-img img {
-        width: 90vw;
-        margin-left: 50rem;
-        /* justify-content: center;
-        align-items: center; */
+    .about-img {
+        
+        display: flex;
+        margin-left: 0;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-img img{
+        width: 300px;
+    }
+
+    .skills-box2 .language a{
+        background-color: #0ef;
+        border-radius: 4rem;
+    }
+
+    .skills-box3 .language{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .git{
+        text-align: center;
+    }
+
+    .my-contact {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
 }
