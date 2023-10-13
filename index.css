@@ -85,7 +85,7 @@ section {
 }
 
 .home {
-    background-image: url('/Aman_Portfolio/images/home-bg-img.png');
+    background-image: url('./images/home-bg-img.png');
 }
 
 .home {
@@ -232,7 +232,7 @@ span {
 }
 
 .about {
-    background-image: url('/Aman_Portfolio/images/home-bg-img.png');
+    background-image: url('./images/home-bg-img.png');
 }
 
 .about-img {
@@ -287,7 +287,7 @@ span {
 }
 
 .details {
-    background-image: url('/Aman_Portfolio/images/details-bg-img.png');
+    background-image: url('./images/details-bg-img.png');
     background-size: cover;
 
 
@@ -444,7 +444,7 @@ span {
 }
 
 #services {
-    background-image: url('/Aman_Portfolio/images/services-bg-img1.jpg');
+    background-image: url('./images/services-bg-img1.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -492,7 +492,7 @@ span {
 }
 
 #skills {
-    background-image: url('/Aman_Portfolio/images/skills-bg-img.jpeg');
+    background-image: url('./images/skills-bg-img.jpeg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -559,7 +559,7 @@ span {
 }
 
 .projects {
-    background-image: url('/Aman_Portfolio/images/project-bg-img.jpg');
+    background-image: url('./images/project-bg-img.jpg');
     background-size: cover;
 }
 
