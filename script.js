@@ -55,7 +55,7 @@ ScrollReveal().reveal('.about-img ', {origin: 'left'});
 
 /*********************typed js********************/
 const typed = new Typed('.multiple-Text', {
-    strings: ['Web Developer' , 'Android Developer' , 'Open Source Contributer' , 'FreeLancer'],
+    strings: ['Web Developer' , 'Android Developer' ,'Wordpress developer', 'Open Source Contributer' , 'FreeLancer'],
     typeSpeed: 150,
     backSpeed: 150,
     backDelay: 1200,

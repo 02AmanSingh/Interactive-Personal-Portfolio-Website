@@ -919,9 +919,13 @@ span {
 
 }
 
-@media (max-width:617px) {
+@media (max-width:620px) {
     .projects-container {
         grid-template-columns: 1fr;
+    }
+
+    .Graduation h2{
+        font-size: 3.8rem;
     }
 }
 
@@ -930,12 +934,23 @@ span {
         font-size: 50%;
     }
 
+    .my-contact {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .Graduation h2{
+        font-size: 3.5rem;
+    }
+
     .contact form .input-box input {
         width: 100%;
     }
 }
 
-@media (max-width:399px) {
+@media (max-width:380px) {
     .home-img img {
         width: 90vw;
     }
@@ -964,6 +979,10 @@ span {
 
     .git{
         text-align: center;
+    }
+
+    .Graduation h2{
+        font-size: 3rem;
     }
 
     .my-contact {
