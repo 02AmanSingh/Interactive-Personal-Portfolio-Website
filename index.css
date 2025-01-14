@@ -585,6 +585,12 @@ span {
     /* display: flex; */
 }
 
+.projects-box {
+    width: 90%;
+    height: 90%;
+    text-overflow: ellipsis;
+}
+
 .projects-box h4 {
     margin-top: 2rem;
 }
@@ -620,6 +626,21 @@ span {
 .projects-box h6 {
     font-size: 2.5rem;
     margin-bottom: 2rem;
+}
+.More-Projects {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+.More-Projects p {
+    background-color: transparent;
+    color: var(--text-color);
+}
+
+.More-Projects p:hover{
+    color: var(--main-color);
+    
 }
 
 .projects-box .dot {
@@ -702,6 +723,14 @@ span {
     padding-top: 2rem;
     border-bottom: .2rem solid white 100%;
     color: chartreuse;
+}
+
+.my-contact a {
+    color: chartreuse;
+}
+
+.my-contact a:hover {
+    color: rgb(57, 57, 223);
 }
 
 .contact .social-media {
